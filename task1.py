@@ -16,10 +16,8 @@ here
 Use assignment_test.py to test your functions
 """
 
-
 import tkinter as tk 
 from tkinter import *
-
 
 def binary_to_decimal(binary):
     # binary is a tuple of length 8
@@ -35,9 +33,6 @@ def binary_to_decimal(binary):
         elif val==0:
             pass
     return num
-
-
-    return decimal 
 
 def decimal_to_binary(decimal):
     # decimal is an integer value
@@ -55,10 +50,8 @@ def decimal_to_binary(decimal):
             binary.insert(i,0)
             num=res+nextVal
         
-        
     binary = tuple(binary)
     return binary
-
 
 def get_binary():
     # function should read the entry widget and generate an integer
@@ -82,8 +75,6 @@ def get_decimal():
 
     decimal = binary_to_decimal(binary)
     dec.set(decimal)
-
-
 
 win = tk.Tk()
 
