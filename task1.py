@@ -32,6 +32,7 @@ def binary_to_decimal(binary):
             
         elif val==0:
             pass
+    num=int(num)
     return num
 
 def decimal_to_binary(decimal):
